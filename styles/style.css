@@ -219,5 +219,40 @@ padding: 40px;
 .title-section p, .button-section p{
 color:#627382;;
 }
+/* early access section end */
+/* footer start */
+#footer-section{
+    background-color: #001931;
+    margin-top: 50px;
+    
+
+}
+.footer-container{
+width: 75%;
+display: flex;
+margin: 0% auto;
+justify-content: space-between;
+padding: 120px;
+
+}
+.social-media h4{
+padding-bottom: 5px;
+
+color: white;
+}
+.social-media a{
+    gap: 5px;
+   
+    background-color: white;
+    border-radius: 100%;
+}
+.copyright p{
+    color: white;
+    font-size:18px;
+    padding: 50px;
+    text-align: center;
+}
+
+
 
 
