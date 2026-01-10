@@ -136,9 +136,9 @@ margin: 0 auto;
     margin-top: 50px;
     text-align: center;
    }
-.section-heading h1{
+.section-heading h1, .brain-text h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .section-heading p{
     font-size: 16px;
@@ -172,5 +172,35 @@ padding: 40px;
     color: #627382;
     text-align: center;
 }  
+/* note section end */
+/* brain section start */
+#brain-section{
+    
+}
+.brain-container{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+   
+}
+.brain-text {
+    padding-top:70px ;
+}
+.brain-text h2{
+    line-height: 20px;
+    color: #469165;
+}
+.brain-text p {
+    color:#627382;
+}
+.circle-pera{
+    margin-top: 40px;
+}
+.circle-pera p{
+    font-weight: bold;
+    color: black;
+    line-height: 16px;
+}
+
 
 
