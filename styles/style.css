@@ -15,6 +15,9 @@
     background-color: gray;
     color: black;
 }
+.btn img{
+    vertical-align:middle;
+}
 .button .btn2{
     background:none;
    border: 1px solid white;
