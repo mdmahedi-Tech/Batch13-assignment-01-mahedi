@@ -6,7 +6,7 @@
 .btn{
     margin: 12px 16px;
     padding:12px 16px;
-    
+    font-size: medium;
     background-color: #469161;
     border-radius: 5px;
     color: aliceblue;
@@ -15,15 +15,19 @@
     background-color: gray;
     color: black;
 }
-.btn2{
-    border: 1px solid white;
+.button .btn2{
+    background:none;
+   border: 1px solid white;
      margin: 12px 16px;
     padding:12px 16px;
-    
-    
-    border-radius: 5px;
-    color: black;
-}
+    font-size: medium;
+    color: white;
+     border-radius: 5px;
+    }
+   .button .btn2:hover{
+    background-color: green;
+    color: white;
+   }
 
 /* header s */
 nav{
@@ -74,13 +78,19 @@ li a{
 .h-button{
     text-align: center;
    margin-bottom: 16px;
-   font-size: 16px;
+  
     
 }
  .h-button button{
+    font-weight: bold;
+    font-size: medium;
     color:  #469161;;
-    border-radius: 8px;
+    border-radius: 25px;
     padding: 10px 8px;
+ }
+ .h-button button:hover{
+    background-color: green;
+    color: aliceblue;
  }
 .banner-text h1{
     text-align: center;
@@ -236,13 +246,13 @@ padding: 120px;
 
 }
 .social-media h4{
-padding-bottom: 5px;
 
+line-height: 60px;
 color: white;
 }
 .social-media a{
-    gap: 5px;
-   
+    margin-left: 8px;
+    
     background-color: white;
     border-radius: 100%;
 }
